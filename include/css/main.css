@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Main */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat";
+}
+
+input {
+	font-family: "Montserrat";
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	padding: 0 10vw;
+	height: 10vh;
+	color: #f8f8ff;
+	background-color: #393d57;
+}
+
+#logo {
+	height: 10vh;
+}
+
+.button {
+	font-family: "Montserrat";
+	font-weight: bold;
+	padding: 20px;
+	border-radius: 8px;
+	background-color: white;
+	color: #393d57;
+	font-size: 18px;
+	border-style: hidden;
+	box-shadow: 3px 3px 12px black;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	font-family: "Montserrat";
+	height: 8vh;
+}
+
+ul li {
+	float: left;
+	padding: 0 16px;
+	list-style: none;
+}
+
+ul li a {
+	color: #f8f8ff;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+p {
+	font-size: 12px;
+}
+
+#main {
+	height: 100%;
+	padding: 0 10vw;
+	
+}
+
+#slider {
+	height: 90vh;
+	background-image: url("./../pictures/mindfakt-quiz.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#register {
+<<<<<<< HEAD
+	height: 90vh;
+=======
+	height: 100vh;
+>>>>>>> origin/master
+	background-image: url("./../pictures/mindfakt-registrieren.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+<<<<<<< HEAD
+=======
+#register h1 {
+	font-size: 42px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+>>>>>>> origin/master
+#slider h1{
+	font-size: 42px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+#score {
+	margin-top: 80px;
+	border: 4px solid white;
+	border-radius: 42px;
+	background-color: #393d57;
+}
+
+#score p{
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	text-align: center;	
+}
+
+#slider p {
+	font-size: 20px;
+}
+
+#slider h1, #slider h2, #slider p{
+	color: white;
+}
+
+#quiz {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 90vh;
+}
+
+#btn-quiz {
+	margin-top: 42px;
+}
+
+#quiz-site {
+	background-image: url("./../pictures/mindfakt-quiz.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+#quiz section {
+	display: flex;
+	justify-content: space-around;
+}
+
+#result {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid white;
+}
+
+#result p {
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+}
+
+#btn-home {     
+	display: flex;     
+	flex-direction: row; 
+}  
+
+#btn-quiz {     
+	margin-top: 42px;     
+	margin-right: 21px; 
+} 
+
+#btn-register {     
+	margin-top: 42px;     
+	margin-right: 21px;     
+	color: white;     
+	background-color: #393d57;     
+}
+
+#question {
+	margin: 0 24vw 12px;
+	padding: 24px;
+	background-color: #f8f8ff;
+	border: 2px solid #393d57;
+	color: #393d57;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#profile-img {
+	display: flex;
+	padding-left: 20px;
+	align-self: center;
+	width: 42px;
+	margin: 0px;
+}
+
+.answer {
+	padding: 24px;
+	width: 25vw;
+	background-color: #393d57;
+	color: #f8f8ff;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: medium;
+}
+
+.block1, .block2 {
+	margin: 0 24vw 8px;
+}
